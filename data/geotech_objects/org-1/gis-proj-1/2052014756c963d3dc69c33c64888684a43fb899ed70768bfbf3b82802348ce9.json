@@ -1,0 +1,32 @@
+{
+  "id": "repro-1795011889852-833",
+  "projectId": "gis-proj-1",
+  "projectCode": "SIG-AMB-2026-01",
+  "title": "Paquete Reproducible Pendiente Horn 4.0",
+  "algorithm": "slope_horn",
+  "engine": "ECOINTELLIGENCE Raster Horn 3×3 (TS)",
+  "engineVersion": "4.0.0",
+  "version": "v1.0",
+  "crs": "EPSG:32718",
+  "parameters": {},
+  "datasetHash": "283f015ca5187ff1866d572d10faf38af987a41cb3c266d76bcd82a7984da508",
+  "resultHash": "2052014756c963d3dc69c33c64888684a43fb899ed70768bfbf3b82802348ce9",
+  "resultSummary": "Pendiente media 2.36°, máx 5.01°",
+  "resultMetrics": {
+    "minDeg": 0.09,
+    "meanDeg": 2.36,
+    "maxDeg": 5.01,
+    "steepPct": 0
+  },
+  "uncertainty": {
+    "resultado": "Pendiente media 2.36°, máx 5.01°",
+    "confianza": "Determinismo numérico IEEE-754 verificable por hash SHA-256",
+    "limitaciones": [
+      "Validez sujeta a la resolución del DEM/capas base registradas y parámetros declarados."
+    ],
+    "dataKind": "modelo_analitico",
+    "requiresFieldCalibration": true
+  },
+  "createdAt": "2026-11-18T14:24:49.852Z",
+  "user": "Ing. Valeria Mendoza"
+}
